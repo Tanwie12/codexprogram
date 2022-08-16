@@ -27,8 +27,8 @@
   </head>
 
   <body>
-    <ul class="nav nav-tabs shadow-lg">
-      <li class="nav-item"></li>
+    <ul class="nav  nav-tabs bg-white fixed-top">
+    
       <li class="nav-item">
         <a class="nav-link link-dark" href="#"
           ><img
@@ -41,11 +41,16 @@
         >
       </li>
     </ul>
+    <div id="bgimg" class="bg-primary" style="
+    --bs-bg-opacity: 0.2;
+  "></div>
+    <div id="nextdiv" class="mt-5">
     <div
-      class="container align-items-center"
+      class="container align-items-center mt-4"
+      
       style="align-items: center; display: flex; justify-content: center"
     >
-      <div id="imagediv" class="m-5">
+      <div id="imagediv" class="m-5 ">
         <div
           class="p-5 mb-0 bg-black round-3 form-div"
           style="
@@ -55,72 +60,75 @@
           "
         >
           <div class="container-fluid py-5 align-items-center">
-            <form>
-              <div
-                class="P-2 m-1 align-items-center"
-                style="text-align: center; color: rgb(72, 72, 240)"
-              >
-                <h2 class="text-center">LOGIN</h2>
-              </div>
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label"
-                  >Email address</label
+            <div class="" id="formdiv">
+              <form>
+                <div
+                  class="P-2 m-1 align-items-center"
+                  style="text-align: center; color: rgb(72, 72, 240)"
                 >
-                <input
-                  placeholder="Enter your email address"
-                  type="email"
-                  class="form-control rounded-4"
-                  id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
-                />
-                <div id="emailHelp" class="form-text">
-                  We'll never share your email with anyone else.
+                  <h2 class="text-center">LOGIN</h2>
                 </div>
-              </div>
-              <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label"
-                  >Password</label
-                >
-                <input
-                  placeholder="Enter password"
-                  type="password"
-                  class="form-control rounded-4"
-                  id="exampleInputPassword1"
-                />
-              </div>
-              <div class="mb-3 form-check">
-                <input
-                  type="checkbox"
-                  class="form-check-input"
-                  id="exampleCheck1"
-                />
-                <div class="row">
-                  <div class="col-sm-6">
-                    <label class="form-check-label" for="exampleCheck1"
-                      >Remember Me</label
-                    >
-                  </div>
-                  <div class="col-sm-6" style="text-align: end">
-                    <a href="#">forgot password?</a>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Email address</label
+                  >
+                  <input
+                    placeholder="Enter your email address"
+                    type="email"
+                    class="form-control rounded-4"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  />
+                  <div id="emailHelp" class="form-text">
+                    We'll never share your email with anyone else.
                   </div>
                 </div>
-              </div>
-              <div
-                class="d-grid gap-2 mx-auto rounded-4"
-                style="background-color: rgba(8 192 248)"
-              >
-                <button class="btn" type="button">Sign in</button>
-              </div>
-              <div class="mt-1">
-                <p>Do you have an account? <a href="#">Create One</a></p>
-              </div>
-            </form>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label"
+                    >Password</label
+                  >
+                  <input
+                    placeholder="Enter password"
+                    type="password"
+                    class="form-control rounded-4"
+                    id="exampleInputPassword1"
+                  />
+                </div>
+                <div class="mb-3 form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="exampleCheck1"
+                  />
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <label class="form-check-label" for="exampleCheck1"
+                        >Remember Me</label
+                      >
+                    </div>
+                    <div class="col-sm-6" style="text-align: end">
+                      <a href="#">forgot password?</a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="d-grid gap-2 mx-auto rounded-4"
+                  style="background-color: rgba(8 192 248)"
+                >
+                  <button class="btn" type="button">Sign in</button>
+                </div>
+                <div class="mt-1">
+                  <p>Do you have an account? <a href="#">Create One</a></p>
+                </div>
+              </form>
+            </div>
             <h1 class="display-5 fw-bold"></h1>
             <p class="col-md-8 fs-4"></p>
           </div>
         </div>
       </div>
     </div>
+
     <footer class="footer-dark">
       <div class="container">
         <div class="row">
@@ -157,6 +165,7 @@
         </div>
         <p class="copyright">Copy write © 2022 Codex Wine</p>
       </div>
+    </div>
     </footer>
     <!-- JavaScript Bundle with Popper -->
     <script
