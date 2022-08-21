@@ -10,7 +10,7 @@
 }
 
 #imagediv {
-  width:80%;
+  
   border-radius:60px;
   background: url("../../assets/img/loginb3.jpg")no-repeat;
   background-size: cover;
@@ -41,10 +41,12 @@ input{
   }
   
 }
-
+#whitebg{
+  position:absolute;
+  background-color:rgba(0, 255, 42, 0.596)
+}
 #bgimg{
-  
-  position: fixed;
+  position: absolute;
   left: 0;
   right: 0;
   z-index: 1;
