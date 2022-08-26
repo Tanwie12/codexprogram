@@ -10,7 +10,10 @@
 }
 
 #imagediv {
-  
+  position: relative;
+  left: 0;
+  right: 0;
+  z-index: 99;
   border-radius:60px;
   background: url("../../assets/img/loginb3.jpg")no-repeat;
   background-size: cover;
@@ -26,6 +29,7 @@
            bottom: 0px;
            margin-top: 200px;
             width: 100%;
+            
 }
 }
 
@@ -33,12 +37,12 @@ input{
   border-block: 1px  solid rgb(31, 176, 202)
 }
 @media only screen and (min-width: 768px) {
-  #formdiv {
+   #formdiv {
  
  
-    margin-left:200px;
+    margin-left:100px;
     margin-right: 200px;
-  }
+  } 
   
 }
 #whitebg{
@@ -86,3 +90,32 @@ input{
   z-index: 99;
   
 }
+ @media only screen and (max-width: 480px) {
+  #on_phonegreater_div {
+    display :none !important;
+     
+ }
+} 
+@media only screen and (min-width: 480px) {
+  .on_phone_div {
+     display :none !important;
+      
+  }
+}
+.on_phone_div{
+ 
+  padding-top:100px;
+  position: relative;
+  left: 0;
+  right: 0;
+  z-index: 99;
+} 
+@media only screen and (max-width: 480px) {
+  .contact-clean form {
+   font-weight: bold;
+    background-color: rgba(0,0,0,0.9);
+    font-size: 20px !important;
+  }
+    
+     
+ }
